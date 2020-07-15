@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  padding: 0 40px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.logo-css {
+  padding: 0px 0px;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.navmenu a {
+  text-decoration: none;
+  color: #484551;
+}
+.navmenu a:hover {
+  text-decoration: underline;
+  color: #4fa3db;
+}
+.navmenu li {
+  font-weight: 550;
+  font-size: 14px;
+  margin: 23px 0px;
+  padding: 0 12px;
+}
+header {
+  position: sticky;
+  top: 0;
+  padding: 0 40px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.logo-css {
+  padding: 0px 0px;
+  width: 60px;
+  height: 60px;
+}
+@media screen and (max-width: 1000px) {
+  nav ul{
+    background-color: cadetblue;
+  }
+
+  nav li a{
+    color: crimson;
+  }
+  .nav-links a {
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  .Resume {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .watchvideo-btn {
+    margin-bottom: 10px;
+  } 
+}
+
+
+main {
+  padding: 0 40px;
+}
+
+body h1{
+  color: teal;
+  padding: 0 40px;
+}
+
+body p {
+  padding: 0 40px;
+}
+
+section h1{
+  color: teal;
+  padding: 0 40px;
+}
+
+.About div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Work div{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+  justify-content: space-around;
+} 
+
+.Resume {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.Resume h1 {
+  color: #484551;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2.6em;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0;
+}
+.website-span {
+  color: #4fa3db;
+  font-weight: bold;
+}
+.watchvideo-btn {
+  padding: 20px 40px;
+  border: 1px solid #484551;
+  border-radius: 6px;
+  background-color: white;
+  color: #484551;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0 40px;
+}
+.watchvideo-btn:hover {
+  border: transparent;
+  background-color: #4fa3db;
+  color: white;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+ footer {
+  margin: 0;
+  padding: 0;
+}
+footer div {
+  background-color: #e8e8e6;
+}
+.footer-message {
+  text-align: center;
+  padding: 25px 40px;
+  font-size: 16px;
+  color: #363945;
+  margin-bottom: 0;
+}
+footer span {
+  text-decoration: underline;
+  color: #5b6b7f;
+}
